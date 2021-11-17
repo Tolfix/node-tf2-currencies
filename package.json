@@ -1,5 +1,5 @@
 {
-    "name": "tf2-currencies-2",
+    "name": "@tf2autobot/tf2-currencies",
     "version": "2.0.1",
     "description": "Tool for handling Team Fortress 2 currencies",
     "main": "index.js",
@@ -8,24 +8,20 @@
     },
     "scripts": {
         "lint": "eslint ./",
-        "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec",
-        "report": "npm test && istanbul report",
-        "coveralls": "cat ./coverage/lcov.info | coveralls",
         "release": "np --no-cleanup"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TF2Autobot/node-tf2-currencies-2.git"
+        "url": "git+https://github.com/TF2Autobot/node-tf2-currencies.git"
     },
     "author": {
-        "name": "IdiNium/Nicklas Marc Pedersen",
-        "url": "https://nicklas.io"
+        "name": "IdiNium/Nicklas Marc Pedersen"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/TF2Autobot/node-tf2-currencies-2/issues"
+        "url": "https://github.com/TF2Autobot/node-tf2-currencies/issues"
     },
-    "homepage": "https://github.com/TF2Autobot/node-tf2-currencies-2#readme",
+    "homepage": "https://github.com/TF2Autobot/node-tf2-currencies#readme",
     "dependencies": {
         "pluralize": "^8.0.0"
     },
