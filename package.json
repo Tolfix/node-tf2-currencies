@@ -1,29 +1,29 @@
 {
-    "name": "@tf2autobot/tf2-currencies",
-    "version": "2.0.1",
-    "description": "Tool for handling Team Fortress 2 currencies",
-    "main": "index.js",
-    "engines": {
-        "node": ">=6.0.0"
-    },
-    "scripts": {
-        "lint": "eslint ./",
-        "release": "np --no-cleanup"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/TF2Autobot/node-tf2-currencies.git"
-    },
-    "author": {
-        "name": "IdiNium/Nicklas Marc Pedersen"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/TF2Autobot/node-tf2-currencies/issues"
-    },
-    "homepage": "https://github.com/TF2Autobot/node-tf2-currencies#readme",
-    "dependencies": {
-        "pluralize": "^8.0.0"
-    },
-    "devDependencies": {}
+  "name": "@tolfix/tf2-currencies",
+  "version": "2.0.1",
+  "description": "Tool for handling Team Fortress 2 currencies",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ./",
+    "release": "np --no-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tolfix/node-tf2-currencies.git"
+  },
+  "author": {
+    "name": "IdiNium/Nicklas Marc Pedersen"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tolfix/node-tf2-currencies/issues"
+  },
+  "homepage": "https://github.com/Tolfix/node-tf2-currencies#readme",
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  },
+  "devDependencies": {}
 }

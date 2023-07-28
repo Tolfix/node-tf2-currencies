@@ -1,21 +1,12 @@
 'use strict';
 
 const currencies = require('./lib/currencies');
+const toScrap = require('./lib/toScrap');
+const toRefined = require('./lib/toRefined');
+const toCurrencies = require('./lib/toCurrencies');
 
-/**
- * Register extra components
- * @param {Array.<String>} components Components to require
- */
-function register (components) {
-    components.forEach(function (component) {
-        currencies[component] = require('./lib/' + component);
-    });
-}
-
-register([
-    'toScrap',
-    'toRefined',
-    'toCurrencies'
-]);
+currencies.toScrap = toScrap;
+currencies.toRefined = toRefined;
+currencies.toCurrencies = toCurrencies;
 
 module.exports = currencies;
